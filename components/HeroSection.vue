@@ -18,31 +18,31 @@
 
     <!-- Content -->
     <div class="relative z-20 container mx-auto px-4 text-center">
-      <div class="max-w-4xl mx-auto space-y-8 animate-fade-in">
-        <div class="space-y-4">
-          <p class="text-primary-300 font-semibold text-lg md:text-xl uppercase tracking-widest animate-slide-down">
+      <div class="max-w-4xl mx-auto space-y-6 md:space-y-8 animate-fade-in">
+        <div class="space-y-3 md:space-y-4">
+          <p class="hidden md:block text-primary-300 font-semibold text-lg md:text-xl uppercase tracking-widest animate-slide-down">
             Váš štýl, naša vášeň
           </p>
-          <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight animate-slide-up">
+          <h1 class="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight animate-slide-up">
             Kde krása<br />stretáva umenie
           </h1>
-          <p class="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto animate-slide-up" style="animation-delay: 0.2s">
+          <p class="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto animate-slide-up px-4" style="animation-delay: 0.2s">
             Profesionálne kaderníctvo a kozmetické služby pre vašu dokonalú transformáciu
           </p>
         </div>
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-scale-in" style="animation-delay: 0.4s">
-          <NuxtLink to="/rezervacia" class="btn-primary text-lg px-12 py-4 group">
+        <div class="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center animate-scale-in px-4" style="animation-delay: 0.4s">
+          <NuxtLink to="/rezervacia" class="btn-primary text-base md:text-lg px-8 md:px-12 py-3 md:py-4 group w-full sm:w-auto">
             Rezervovať termín
             <Icon name="mdi:arrow-right" class="inline ml-2 group-hover:translate-x-2 transition-transform" />
           </NuxtLink>
-          <a href="#sluzby" class="btn-secondary text-lg px-12 py-4">
+          <a href="#sluzby" class="btn-secondary text-base md:text-lg px-8 md:px-12 py-3 md:py-4 w-full sm:w-auto">
             Naše služby
           </a>
         </div>
 
         <!-- Features -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-16 animate-fade-in max-w-2xl md:max-w-4xl mx-auto" style="animation-delay: 0.6s">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 mt-8 md:mt-16 animate-fade-in max-w-2xl md:max-w-4xl mx-auto px-4" style="animation-delay: 0.6s">
           <div class="flex items-center md:justify-center space-x-4 text-white bg-white/10 backdrop-blur-sm rounded-xl p-4 md:bg-transparent md:backdrop-blur-none">
             <div class="flex-shrink-0">
               <Icon name="mdi:clock-outline" class="text-4xl md:text-3xl text-primary-400" />
